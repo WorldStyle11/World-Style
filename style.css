@@ -1,0 +1,82 @@
+Se usó un 94% del almacenamiento … Si te quedas sin almacenamiento, no podrás crear, editar ni subir archivos. Obtén 100 GB de almacenamiento por $ 8.900,00 $ 2.000,00 al mes durante 3 meses.
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    background-color: white;
+    text-align: center;
+    padding: 3px;
+}
+.caja2{
+    background-color: skyblue;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header, footer {
+    
+    color: white;
+    height: 200px;
+}
+nav {
+    background-color: white;
+    padding: 1px;
+}
+.cajita{
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 10px;
+}
+
+/* Media queries para adaptarse a diferentes dispositivos */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 480px) {
+    header, footer, nav ul li {
+        font-size: 14px;
+    }
+}
+
+.cajita-pequeña{
+    background-color: #353535;
+    height: 10px;
+    padding: 1px;
+}
+
+.imagen-responsiva {
+    max-width: 800%;
+    height: auto;
+  }
+
+
+  .carousel {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-img {
+  width: 100%;
+  display: none;
+}
